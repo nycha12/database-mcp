@@ -34,7 +34,7 @@ MCP server for SQL Server database access, providing query execution, schema exp
    **For Windows Authentication (recommended for local development)**:
    ```env
    DB_SERVER=localhost
-   DB_DATABASE=StoreFeeder
+   DB_DATABASE=DbName
    DB_PORT=1433
    DB_ENCRYPT=false
    DB_TRUST_SERVER_CERTIFICATE=true
@@ -43,7 +43,7 @@ MCP server for SQL Server database access, providing query execution, schema exp
    **For SQL Server Authentication**:
    ```env
    DB_SERVER=localhost
-   DB_DATABASE=StoreFeeder
+   DB_DATABASE=DbName
    DB_USER=sa
    DB_PASSWORD=YourPassword
    DB_PORT=1433
@@ -54,7 +54,7 @@ MCP server for SQL Server database access, providing query execution, schema exp
    **For Azure SQL Database**:
    ```env
    DB_SERVER=yourserver.database.windows.net
-   DB_DATABASE=StoreFeeder
+   DB_DATABASE=DbName
    DB_USER=yourusername
    DB_PASSWORD=YourPassword
    DB_PORT=1433
@@ -216,20 +216,20 @@ Copilot: [Uses execute_stored_procedure with parameters]
 ### Local SQL Server Express (Windows Auth)
 ```env
 DB_SERVER=localhost\SQLEXPRESS
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbName
 # Leave DB_USER and DB_PASSWORD empty for Windows Auth
 ```
 
 ### Named Instance
 ```env
 DB_SERVER=SERVERNAME\INSTANCENAME
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbName
 ```
 
 ### IP Address
 ```env
 DB_SERVER=192.168.1.100
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbName
 DB_PORT=1433
 ```
 

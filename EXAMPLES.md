@@ -1,6 +1,6 @@
-﻿# Database MCP Server - StoreFeeder Examples
+﻿# Database MCP Server - Examples
 
-Practical examples for using the Database MCP server with your StoreFeeder database.
+Practical examples for using the Database MCP server with your database.
 
 ---
 
@@ -96,7 +96,7 @@ Practical examples for using the Database MCP server with your StoreFeeder datab
 
 **List all tables**:
 ```
-"What tables are in the StoreFeeder database?"
+"What tables are in the  database?"
 → Uses list_tables
 ```
 
@@ -223,7 +223,7 @@ ORDER BY Revenue DESC
 
 ### Execute Procedures
 
-**Common StoreFeeder procedures** (examples):
+**Common  procedures** (examples):
 
 ```
 "Execute GetOrdersByDateRange with start date '2025-01-01' and end date '2025-02-01'"

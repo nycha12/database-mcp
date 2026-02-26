@@ -38,7 +38,7 @@ If the setup script doesn't work:
 3. **Edit `.env`** with your database credentials:
    ```env
    DB_SERVER=localhost
-   DB_DATABASE=StoreFeeder
+   DB_DATABASE=DbName
    # Leave empty for Windows Authentication
    DB_USER=
    DB_PASSWORD=
@@ -131,7 +131,7 @@ Once configured, you can ask Copilot:
 ### Windows Authentication (Local)
 ```env
 DB_SERVER=localhost
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbName
 DB_USER=
 DB_PASSWORD=
 DB_PORT=1433
@@ -142,7 +142,7 @@ DB_TRUST_SERVER_CERTIFICATE=true
 ### SQL Server Authentication
 ```env
 DB_SERVER=localhost
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbNamede
 DB_USER=sa
 DB_PASSWORD=YourStrongPassword
 DB_PORT=1433
@@ -153,13 +153,13 @@ DB_TRUST_SERVER_CERTIFICATE=true
 ### Named Instance
 ```env
 DB_SERVER=localhost\SQLEXPRESS
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbNameder
 ```
 
 ### Azure SQL
 ```env
 DB_SERVER=yourserver.database.windows.net
-DB_DATABASE=StoreFeeder
+DB_DATABASE=DbNameder
 DB_USER=yourusername
 DB_PASSWORD=YourPassword
 DB_PORT=1433
@@ -197,5 +197,5 @@ See `README.md` for complete documentation including:
 
 **Current Configuration**:
 - Server: `localhost` (Windows Authentication)
-- Database: `StoreFeeder`
+- Database: `DbNameder`
 - Files created in: `<project-directory>`

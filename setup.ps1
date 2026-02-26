@@ -57,7 +57,7 @@ if ([string]::IsNullOrWhiteSpace($server)) {
 }
 
 # Get database name
-$defaultDatabase = "StoreFeeder"
+$defaultDatabase = "Dev"
 $database = Read-Host "Enter database name (default: $defaultDatabase)"
 if ([string]::IsNullOrWhiteSpace($database)) {
     $database = $defaultDatabase
