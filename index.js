@@ -276,7 +276,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           SELECT 
             s.name AS SchemaName,
             t.name AS TableName,
-            p.rows AS RowCount,
+            p.rows AS Rows,
             SUM(a.total_pages) * 8 AS TotalSpaceKB,
             SUM(a.used_pages) * 8 AS UsedSpaceKB
           FROM sys.tables t
